@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        theme: '#11172E',
+        theme: '#0B0B0B',
         txtT: '#D0D4F4',
         txtS: '#8C90AE'
       },
       fontFamily:{
-        mont: ['Lato', 'sans-serif']
+        mont: ['Lato', 'sans-serif'],
+        danc: ['Dancing Script', 'cursive']
       }
     },
   },

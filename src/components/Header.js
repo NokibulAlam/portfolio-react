@@ -32,12 +32,12 @@ const Header = () => {
     ]);
     return (
 
-        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-txtT font-mont cursor-pointer'>
-            <h1 className='w-full text-3xl font-bold text-[#6bdfae]'>NKB</h1>
+        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-txtT font-mont fixed inset-0 z-50'>
+            <h1 className='w-full text-3xl font-bold text-[#6bdfae] cursor-pointer'>NKB</h1>
             <ul className='hidden md:flex'>
                 {menuItems.map((item, i) =>{
                     return(
-                        <li key={i} className="mx-5">
+                        <li key={i} className="mx-5 cursor-pointer">
                             <Link to={`${item.id}`}>{item.title}</Link>
                         </li>
                     )
@@ -50,7 +50,7 @@ const Header = () => {
                 <h1 className='w-full text-3xl font-bold text-[#6bdfae] m-4'>NKB</h1>
                 {menuItems.map((item, i) =>{
                     return(
-                        <li key={i} className="p-4 border-b border-gray-600">
+                        <li key={i} className="p-4 border-b border-gray-600 cursor-pointer">
                             <Link to={`${item.id}`}>{item.title}</Link>
                         </li>
                     )
