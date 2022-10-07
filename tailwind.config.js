@@ -13,6 +13,9 @@ module.exports = {
       fontFamily:{
         mont: ['Lato', 'sans-serif'],
         danc: ['Dancing Script', 'cursive']
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/src/images/BG.jpg')",
       }
     },
   },

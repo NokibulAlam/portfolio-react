@@ -33,7 +33,7 @@ const Header = () => {
     return (
 
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-txtT font-mont fixed inset-0 z-50'>
-            <h1 className='w-full text-3xl font-bold text-[#6bdfae] cursor-pointer'>NKB</h1>
+            <h1 className='w-full text-4xl font-bold text-[#6bdfae] cursor-pointer font-mont'><Link to="/">NKB</Link></h1>
             <ul className='hidden md:flex'>
                 {menuItems.map((item, i) =>{
                     return(

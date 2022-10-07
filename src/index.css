@@ -6,5 +6,7 @@
 @tailwind utilities;
 
 body {
+    /* background-image: url(./images/Portfolio.jpg);
+    background-repeat: no-repeat, repeat; */
     background-color: #0B0B0B;
   }
