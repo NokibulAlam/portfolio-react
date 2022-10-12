@@ -3,7 +3,7 @@ import Nokib from '../images/Untitled-1.png';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-[#090809] to-gray-800 text-gray-300'>
+    <div name='about' className='w-full h-screen bg-gradient-to-b from-[rgb(26,23,23)] to-[rgb(36,36,36)] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>

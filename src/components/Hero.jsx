@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <Parallax strength={600} bgImage={BG}>
       <div name="home" className="h-screen w-full">
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row lg:space-x-4">
+        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:space-x-4">
 
           <div className="flex flex-col justify-center h-full">
 
@@ -33,6 +33,7 @@ const Hero = () => {
             </div>
 
             <div data-aos="fade-left" data-aos-duration="1000">
+              
               <div className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'>
                 <a href='https://www.linkedin.com/in/nokibul-alam/' target="_blank" rel="noreferrer" className="flex text-gray-300 mt-4 py-3 max-w-md space-x-4 items-center">
                   <FaLinkedin size={25} /><span>linkedin.com/in/nokibul-alam/</span>
