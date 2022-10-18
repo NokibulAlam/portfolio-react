@@ -92,12 +92,12 @@ const Skills = () => {
   const percentage = 70;
 
   return (
-    <div name="skills" className='w-full h-screen bg-[rgb(36,36,36)] flex relative flex-col text-center md:text-left xl:flex-row
+    <div name="skills" className='w-full bg-[rgb(36,36,36)] flex relative flex-col text-center md:text-left xl:flex-row
      xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-4xl'>Skills</h3>
-      <h3 className='absolute top-40 uppercase tracking-[3px] text-gray-500 text-sm'>Hover over a skill for current profieciency </h3>
+      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-4xl' data-aos="fade-down" data-aos-duration="1000">Skills</h3>
+      <h3 className='absolute top-40 uppercase tracking-[3px] text-gray-500 text-sm' data-aos="fade-down" data-aos-duration="1000">Hover over a skill for current profieciency </h3>
 
-      <div className='grid grid-cols-4 gap-x-10 gap-y-5 lg:pt-14'>
+      <div className='grid grid-cols-4 gap-x-10 gap-y-5 lg:pt-14' data-aos="flip-left" data-aos-duration="2000">
         {languages.map(({ name, progress, img }) => (
 
           <div className='group relative flex cursor-pointer'>
@@ -112,8 +112,6 @@ const Skills = () => {
 
         ))}
       </div>
-
-
 
     </div>
 

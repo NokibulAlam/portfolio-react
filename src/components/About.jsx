@@ -6,13 +6,8 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-gradient-to-b from-[rgb(26,23,23)] to-[rgb(36,36,36)] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4' data-aos="fade-down" data-aos-duration="1000">
-            <p className='text-4xl font-bold inline border-b-4 border-gray-600 rounded'>
-              About
-            </p>
-          </div>
-
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <p className='uppercase tracking-[20px] text-gray-500 text-4xl my-5 lg:pb-10 lg:mb-14'>About</p>
         </div>
 
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 items-center'>
