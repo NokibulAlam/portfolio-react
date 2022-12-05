@@ -19,17 +19,17 @@ const Skills = () => {
   const languages = ([
     {
       name: "C",
-      progress: "80%",
+      progress: "85%",
       img: C,
     },
     {
       name: "C++",
-      progress: "80%",
+      progress: "85%",
       img: cPlus,
     },
     {
       name: "JavaScript",
-      progress: "85%",
+      progress: "80%",
       img: JS,
     },
     {
@@ -39,22 +39,22 @@ const Skills = () => {
     },
     {
       name: "CSS",
-      progress: "75%",
+      progress: "80%",
       img: CSS,
     },
     {
       name: "Bootstrap",
-      progress: "70%",
+      progress: "80%",
       img: Bootstrap,
     },
     {
       name: "TailWind CSS",
-      progress: "65%",
+      progress: "70%",
       img: Tailwind,
     },
     {
       name: "MySQL",
-      progress: "80%",
+      progress: "60%",
       img: MySQL,
     },
     {
@@ -64,32 +64,31 @@ const Skills = () => {
     },
     {
       name: "NodeJs",
-      progress: "65%",
+      progress: "75%",
       img: Nodejs,
     },
     {
       name: "Express",
-      progress: "65%",
+      progress: "70%",
       img: Express,
     },
     {
       name: "React",
-      progress: "65%",
+      progress: "75%",
       img: Reactj,
     },
     {
       name: "Redux",
-      progress: "65%",
+      progress: "60%",
       img: Redux,
     },
     {
       name: "Github",
-      progress: "65%",
+      progress: "70%",
       img: Github,
     },
   ]);
 
-  const percentage = 70;
 
   return (
     <div name="skills" className='w-full bg-[rgb(36,36,36)] flex relative flex-col text-center md:text-left xl:flex-row

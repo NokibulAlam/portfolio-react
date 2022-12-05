@@ -5,8 +5,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    /* background-image: url(./images/Portfolio.jpg);
-    background-repeat: no-repeat, repeat; */
-    background-color: #0B0B0B;
-  }
+
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+
+}
+
+.content-div:hover {
+  
+  background-image: linear-gradient(
+      to right,
+      rgba(115, 115, 116, 0.8),
+      hsla(240, 1%, 69%, 0.8)   
+  )!important;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 2s ease-in-out;
+}
